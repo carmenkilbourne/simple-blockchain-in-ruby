@@ -34,6 +34,7 @@ def get_transactions_data
 		end
 	end
 end
+
 def validate_quantity
 	while true do
 		puts "How much quantity ?"
@@ -43,6 +44,7 @@ def validate_quantity
 	return qty
 
 end
+
 def validate_currency
 
 	while true do

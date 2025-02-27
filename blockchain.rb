@@ -24,7 +24,7 @@ require 'pp'        							# For pp => pretty printer
 require_relative 'block'					# class Block
 require_relative 'transaction'		# method Transactions
 
-LEDGER = []
+LEDGER = []						#registro
 
 #####
 ## Blockchain building, one block at a time.
@@ -83,6 +83,5 @@ def launcher
 	puts "==========================="
 	create_first_block
 end
-
 
 launcher

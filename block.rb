@@ -3,6 +3,7 @@ class Block
 							:transactions_count, :previous_hash, 
 							:nonce, :hash, :type,:difficulty
 
+              
   def initialize(index, transactions, previous_hash, difficulty)
     @index         		 	 = index
     @timestamp      	 	 = Time.now
